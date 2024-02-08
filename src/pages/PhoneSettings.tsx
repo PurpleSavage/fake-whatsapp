@@ -45,6 +45,7 @@ const PhoneSettings = () => {
                 type="file" 
                 placeholder="Jhon Does" 
                 className="hidden" 
+                accept="image/*"
                 onChange={e => setFile(e.target.files ? e.target.files[0] : null)}
             />
         </div>

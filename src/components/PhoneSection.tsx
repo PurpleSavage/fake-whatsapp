@@ -58,7 +58,7 @@ const PhoneSection = () => {
             rounded-lg bottom-2 right-2 flex items-center gap-2"
             onClick={takeScreenshot}
         ><TbScreenshot />Screenshot</button>
-        <section className="min-w-[400px] h-[600px] bg-white shadow-2xl rounded-lg flex flex-col " id="captureMe">
+        <section className="min-w-[370px] md:min-w-[400px] h-[600px] bg-white shadow-2xl rounded-lg flex flex-col " id="captureMe">
             
             <div className="flex justify-between items-center px-4 pt-1 bg-[#075e54]">
                 <div className="text-white">

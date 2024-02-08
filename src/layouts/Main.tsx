@@ -4,7 +4,7 @@ import Menu from "../components/Menu"
 const Main = () => {
   return (
     <div 
-        className="min-h-screen  flex items-center flex-col md:flex-row "
+        className="min-h-screen  flex items-center flex-col md:flex-row py-5"
     >
         <aside className="w-full md:w-1/3  flex justify-center flex-col items-center">
             <Menu/>

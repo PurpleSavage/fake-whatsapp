@@ -54,7 +54,7 @@ const PhoneSection = () => {
   return (
     <>
         <button 
-            className="absolute p-2 bg-green-400 hover:bg-green-600 
+            className="fixed p-2 bg-green-400 hover:bg-green-600 
             rounded-lg bottom-2 right-2 flex items-center gap-2"
             onClick={takeScreenshot}
         ><TbScreenshot />Screenshot</button>

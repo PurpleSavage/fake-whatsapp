@@ -1,0 +1,19 @@
+.chatContainer {
+    scrollbar-width: thin;
+    scrollbar-color: #bbbbbb #ECE5DD; /* Personaliza los colores según tus necesidades */
+  }
+  
+  /* Para Chrome, Safari, y otros navegadores WebKit */
+  .chatContainer::-webkit-scrollbar {
+    width: 8px; /* Ancho de la scrollbar */
+  }
+  
+  .chatContainer::-webkit-scrollbar-track {
+    background: #ECE5DD; /* Color del fondo de la track de la scrollbar */
+  }
+  
+  .chatContainer::-webkit-scrollbar-thumb {
+    background-color: #bbbbbb; /* Color del thumb de la scrollbar */
+    border-radius: 4px; /* Bordes redondeados del thumb */
+    border: 3px solid #ECE5DD; /* Crea un poco de espacio entre el track y el thumb */
+  }
